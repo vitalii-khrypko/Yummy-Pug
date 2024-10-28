@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('./assets/fonts/Montserrat/static/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url('./assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('./assets/fonts/Montserrat/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+
+.content-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 403px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(119, 78, 46, 1);
+    font-family: Montserrat-Medium;
+}
+
+header nav a:first-child {
+    margin-right: 50px;
+}
+
+/* Main */
+/* introduce-section */
+main .introduce-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+main .introduce-section .description {
+    margin-right: 20px;
+}
+
+main .introduce-section img {
+   width: 49%;
+}
+
+main .introduce-section .description h1 {
+    font-size: 110px;
+    font-family: Montserrat-ExtraBold;
+    color: rgba(243, 127, 52, 1);
+    margin-bottom: 40px;
+} 
+
+main .introduce-section .description h1 span {
+    color: rgba(119, 78, 46, 1);
+}
+
+main .introduce-section .description p {
+    font-size: 16px;
+    color: rgba(119, 78, 46, 1);
+    font-family: Montserrat-Medium;
+    margin-bottom: 50px;
+}
+
+main .introduce-section .description button {
+    width: 350px;
+    height: 70px;
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    background-color: rgba(119, 78, 46, 1);
+}
+
+/* candies-section */
+main .candies-section {
+    background-color: rgba(255, 249, 234, 1);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+main .candies-section .content-container .candies-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .candies-section .content-container h2 {
+    font-family: Montserrat-Bold;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+    color: rgba(243, 127, 52, 1);
+}
+
+main .candies-section .content-container h2 span {
+    color: rgba(119, 78, 46, 1);
+}
+
+main .candies-section .content-container .candies-container .candies-container-item {
+    width: 370px;
+    background-color: #fff;
+}
+
+main .candies-section .content-container .candies-container .candies-container-item img {
+    margin-bottom: 36px;
+}
+
+
+main .candies-section .content-container .candies-container .candies-container-item h3 {
+    font-family: Montserrat-Medium;
+    font-size: 24px;
+    color: rgba(119, 78, 46, 1);
+    text-align: center;
+}
+
+main .candies-section .content-container .candies-container .candies-container-item p {
+    padding: 15px 20px 0 20px;
+    margin-bottom: 36px;
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    color: rgba(119, 78, 46, 1);
+    text-align: center;
+}
+
+/* final-section */
+main .final-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+main .final-section .conclusion {
+    margin-right: 20px;
+}
+
+main .final-section img {
+    width: 49%;
+ }
+ 
+main .final-section .conclusion h2 {
+     font-size: 72px;
+     font-family: Montserrat-Bold;
+     text-transform: uppercase;
+     color: rgba(243, 127, 52, 1);
+     margin-bottom: 40px;
+ } 
+ 
+main .final-section .conclusion h2 span {
+    color: rgba(119, 78, 46, 1);
+ }
+
+main .final-section .conclusion p {
+    font-size: 16px;
+    color: rgba(119, 78, 46, 1);
+    font-family: Montserrat-Medium;
+    margin-bottom: 50px;
+}
+
+main .final-section .conclusion .p-above-list {
+    font-size: 24px;
+    color: rgba(119, 78, 46, 1);
+    font-family: Montserrat-SemiBold;
+    margin-bottom: 50px;
+}
+
+main .final-section .conclusion ul {
+    font-size: 16px;
+    color: rgba(119, 78, 46, 1);
+    font-family: Montserrat-Medium;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(119, 78, 46, 1);
+}
+
+footer .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer div p {
+    font-family: Montserrat-Medium;
+    font-size: 36px;
+    color: white;
+}
+
+
+/* Adaptive */
+@media (max-width: 520px) {
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        margin-bottom: 15px;
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1170px) {
+    .content-container {
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    main .introduce-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 0;
+    }
+    main .introduce-section .description {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    header img {
+        display: none;
+    }
+}
