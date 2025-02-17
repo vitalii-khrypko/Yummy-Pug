@@ -15,3 +15,9 @@ Yummy Pug is a simple, static website that showcases the layout of a fictional r
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/vitalii-khrypko/Yummy-Pug.git
+2. Open the index.html file in your browser.
+   
+The project doesn't require additional dependencies or setup, so it can be viewed directly in any modern browser.
+
+## Contributors
+**Vitalii Khrypko** - Project author.
